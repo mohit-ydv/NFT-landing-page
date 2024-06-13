@@ -1,48 +1,48 @@
 Let's break our app into components
 
-Components:
-    Header
-    Hero section
-    Brand section
-    Trending NFT section
-    Info section
-    Footer
+Components:<br>
+    - Header<br>
+    - Hero section<br>
+    - Brand section<br>
+    - Trending NFT section<br>
+    - Info section<br>
+    - Footer<br>
 
 ![alt text](image.png)
 
-Folder structure:
-    src/Components
-        <component> subfolder 
-            index.js
+Folder structure:<br>
+    src/Components<br>
+        <component> subfolder <br>
+            index.js<br>
             <component>.css
 
-Google fonts
-    Poppins
+Google fonts<br>
+    Poppins<br>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-App.js
+Step 1 : App.js<br>
     Render all components
 
-CSS common classes for reusability
-    src/common/styles
-        commonClasses.css
+Step 2 : CSS common classes for reusability<br>
+    src/common/styles<br>
+        commonClasses.css<br>
         variables.css
 
-Header
-    title
+Step 3 : Header<br>
+    title<br>
     common styles for headings
 
-TopFold section
+Step 4 : TopFold section<br>
     2 part : left & right
 
-Brand integration section
+Step 5 : Brand integration section<br>
     static image
 
-Trending NFT section
-    slider - npm pkg 'react-slick'
-    define settings
-    style slider
+Step 6 : Trending NFT section<br>
+    slider - npm pkg 'react-slick'<br>
+    define settings<br>
+    style slider<br>
 
-Trending info section
+Step 6 : Trending info section
 
-Footer
+Step 7 : Footer
